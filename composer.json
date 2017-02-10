@@ -1,0 +1,32 @@
+{
+    "name": "MyApp",
+    "description": "This is my app from shall_wei",
+    "type": "project",
+    "keywords": [
+        "framework",
+        "thinkphp",
+        "ORM"
+    ],
+    "homepage": "http://weibo.com/aixwlove",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "shall_wei",
+            "email": "aixwlove@163.com",
+            "role": "Developer"
+        }
+    ],
+     "repositories": {
+    	"packagist": {
+        	"type": "composer",
+        	"url": "https://packagist.phpcomposer.com"
+    	}
+	},
+    "require": {
+        "php": ">=5.4.0",
+        "aixwlove/MyApp": "1.0"
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}
